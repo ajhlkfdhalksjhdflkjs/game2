@@ -49,7 +49,10 @@ int main()
     default:
         break;
     }
-    if (a[1]>='0'&&a[1]<='9')
+    if (a[1] >= '0' && a[1] <= '9')
+    {
+        cout << "0";
+    }
     /*
     for (int i = 0; i < min(m, m1); i++)
     {
