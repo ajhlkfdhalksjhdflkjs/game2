@@ -1,4 +1,4 @@
-﻿// ConsoleApplication70.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+// ConsoleApplication70.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include <iostream>
@@ -49,6 +49,8 @@ int main()
     default:
         break;
     }
+    if (a[1]>='0'&&a[1]<='9')
+    /*
     for (int i = 0; i < min(m, m1); i++)
     {
         if (s1[i] == s2[i]
@@ -60,6 +62,7 @@ int main()
             
         }
     }
+    */
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
